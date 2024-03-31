@@ -1,5 +1,5 @@
 function createTodoList() {
-  let userInput = document.getElementById("userInput").value;
+  let userInput = document.getElementById("userInput").value.trim();
 
   if (userInput === "") {
     alert("Please enter a to-do item!");
